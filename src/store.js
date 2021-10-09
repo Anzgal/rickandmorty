@@ -52,8 +52,5 @@ const reducer = (state = initialState, action) => {
   }
 }
 
-/* export const initializeStore = (preloadedState = initialState) => {
-  return createStore(reducer, preloadedState)
-} */
 
 export default createStore(reducer)
